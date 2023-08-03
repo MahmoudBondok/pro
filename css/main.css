@@ -422,10 +422,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 1000px) {
   .nav_dash {
-    width: 100%;
-  }
-  .nav_dash .menu_opt {
-    padding: 21px 10px;
+    width: 99%;
   }
   .nav_dash .menu_opt i {
     color: #333 !important;
@@ -462,6 +459,33 @@ body::-webkit-scrollbar {
 @media (max-width: 350px) {
   .nav_dash .welcom {
     display: none;
+  }
+}
+
+.content .home .statistics,
+.content .home .best-selling-products {
+  margin: 25px 0px !important;
+}
+
+@media (max-width: 800px) {
+  .content .home .statistics,
+  .content .home .best-selling-products {
+    width: 95%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 15px;
+    margin: 21px;
+  }
+
+  .nav_dash .notification {
+    float: left;
+    padding: 20px 12px;
+    position: relative;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    top: -65px;
+    right: -45px;
   }
 }
 
@@ -931,7 +955,7 @@ body::-webkit-scrollbar {
 
 @media (max-width: 530px) {
   .content {
-    padding: 98px 10px 30px;
+    padding: 97px 47px 0px;
   }
 }
 
@@ -943,7 +967,7 @@ body::-webkit-scrollbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px 34px;
+  margin: 24px 65px;
 }
 
 .content .link_content p {
@@ -2300,6 +2324,25 @@ body::-webkit-scrollbar {
   .content .branches .branches_content-edits .edit_branch .edit_form .inpt {
     width: 100%;
   }
+}
+@media (max-width: 767px) {
+  .content .fees .fees-items,
+  .content .fees .feesmonth,
+  .content .fees .fee_types {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+.content .fees .fees-items,
+.content .fees .feesmonth,
+.content .fees .fee_types {
+  width: 90% !important;
+  background-color: #fff !important;
+  -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+  box-shadow: 0 0 11px 2px #0000002b !important;
+  border-radius: 21px !important;
+  margin: 30px 65px !important;
 }
 
 @media (max-width: 450px) {
@@ -4421,11 +4464,23 @@ body::-webkit-scrollbar {
     width: 100%;
   }
 }
+@media (min-width: 767px) {
+  .content .fees .fees-items,
+  .content .fees .feesmonth,
+  .content .fees .fee_types {
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 21px;
+    margin: 0px 25px;
+  }
+}
 
 .content .fees .fees-items,
 .content .fees .feesmonth,
 .content .fees .fee_types {
-  width: 100%;
+  width: 94%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
@@ -4697,6 +4752,272 @@ body::-webkit-scrollbar {
 .content .fees .feesmonth .ps table tbody tr td .btns-e a i,
 .content .fees .fee_types .ps table tbody tr td .btns-e a i {
   font-size: 14px;
+}
+
+.content .sales .pay_content {
+  width: 100% !important;
+  margin: 45px 0px !important;
+}
+/* .content .sales .pay_content .pay_box .pay_cash,
+.content .sales .pay_content .pay_box .pay_cash-cart {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+} */
+.content .invoices .invoices_content {
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.content .clients .clients_content {
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.content .fees .fees-items,
+.content .fees .feesmonth,
+.content .fees .fee_types {
+  width: 100% !important;
+  margin: 30px -4px !important;
+}
+.content .fees .add_fees {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.content .supporttickets .supporttickets_content {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.content .my_profile .my_profile-content .sections {
+  width: 100% !important;
+  margin: 25px 0px !important;
+}
+.content .my_profile .my_profile-content .tickets {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.content .addfunds .first-content .top_funds-infos {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.content .addfunds .first-content .top_funds-infos .pay .inpt button {
+  height: 33px !important;
+  position: absolute !important;
+  left: 1px !important;
+  top: 0px !important;
+}
+.content .addfunds .national-bank {
+  width: 100% !important;
+  margin: 25px 0px !important;
+}
+.content .settings .settings_content {
+  width: 100% !important;
+  margin: 35px 0px !important;
+}
+.content .smtp_settings .smtp_settings-content {
+  width: 100% !important;
+  margin: 35px 0px !important;
+}
+
+@media (max-width: 769px) {
+  .content .fees .add_fees {
+    width: 86% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 35px 69px !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .supporttickets .supporttickets_content {
+    width: 116% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 0px -26px !important;
+    position: relative !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .submitticket {
+    width: 100% !important;
+    padding: 60px 30px 25px 30px !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #00000014 !important;
+    box-shadow: 0 0 11px 2px #00000014 !important;
+    border-radius: 9px !important;
+    text-align: center !important;
+    margin: 85px 0% !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .smtp_settings .smtp_settings-content {
+    width: 109% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    padding: 20px !important;
+    margin: 0px -14px !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .settings .settings_content {
+    width: 99% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 35px 0px !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .sales .sales_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 20px -10px !important;
+  }
+}
+@media (max-width: 769px) {
+  .valid_alert {
+    background-color: #8dc63f !important;
+    margin: 11px -8px !important;
+  }
+  .error_alert {
+    background: #cc3f44 !important;
+    margin: 11px -8px !important;
+  }
+}
+@media (max-width: 769px) {
+  .content .sales .pay_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 0px -9px !important;
+  }
+  .content .products .products-items {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 9px !important;
+    margin: 0px -10px !important;
+  }
+  .content .notifications .notifications-content {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 9px !important;
+    margin: 30px auto 0 auto !important;
+    padding: 0 !important;
+    width: 99% !important;
+    position: relative !important;
+    margin: 35px 0px !important;
+  }
+  .content .my_profile .my_profile-content .top_infos {
+    flex-wrap: wrap !important;
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 0px -45px !important;
+  }
+  .content .my_profile .my_profile-content .sections {
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin: 30px -15px !important;
+  }
+  .content .my_profile .my_profile-content .tickets {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #00000014 !important;
+    box-shadow: 0 0 11px 2px #00000014 !important;
+    border-radius: 21px !important;
+    margin: 0px -14px !important;
+  }
+  .content .addfunds .first-content .top_funds-infos {
+    flex-wrap: wrap !important;
+    width: 328px !important;
+    margin: 0px -10px !important;
+  }
+  .content .addfunds .national-bank {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #00000014 !important;
+    box-shadow: 0 0 11px 2px #00000014 !important;
+    border-radius: 9px !important;
+    padding: 20px 15px !important;
+    margin: 30px -10px !important;
+    width: 103% !important;
+  }
+  .content .invoices .invoices_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 0px !important;
+    overflow: hidden !important;
+  }
+  .content .fees .fees-items,
+  .content .fees .feesmonth,
+  .content .fees .fee_types {
+    width: 101% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 30px 0px !important;
+  }
+  .content .fees .add_fees {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 35px 0px !important;
+  }
+  .content .clients .clients_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 0px !important;
+  }
+  .content .clients .add_client {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 21px !important;
+    margin: 45px 0px !important;
+  }
+  .content .clientarea .clientarea_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 9px !important;
+    margin: 30px 0px !important;
+  }
+  .content .branches .branches_content {
+    width: 100% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 3px !important;
+    margin: 33px 0px !important;
+  }
+}
+.content .sales .sales_content {
+  width: 100% !important;
+  margin: 20px 0px !important;
 }
 
 .content .fees .add_fees {
@@ -6481,13 +6802,24 @@ body::-webkit-scrollbar {
   font-size: 14px;
 }
 
+@media (min-width: 800px) {
+  .content .clients .clients_content {
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 21px;
+    margin: 17px 25px;
+  }
+}
+
 .content .clients .clients_content {
-  width: 100%;
+  width: 90%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
-  margin: 0px 25px;
+  margin: 0px 65px;
 }
 
 .content .clients .clients_content .top_box {
@@ -6714,7 +7046,7 @@ body::-webkit-scrollbar {
 }
 
 .content .clients .add_client .form_add {
-  width: 100%;
+  width: 95%;
   padding: 30px 15px 15px;
   background-color: #fff;
   display: -webkit-box;
@@ -8049,15 +8381,33 @@ body::-webkit-scrollbar {
     margin-left: 0 !important;
   }
 }
+@media (min-width: 800px) {
+  .content .sales .sales_content {
+    width: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 21px;
+    margin: 17px 25px;
+  }
+}
 
 .content .sales .sales_content {
+  width: 90%;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 11px 2px #0000002b;
+  box-shadow: 0 0 11px 2px #0000002b;
+  border-radius: 21px;
+  margin: 20px 63px;
+}
+/* .content .sales .sales_content {
   width: 100%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
   margin: 17px 25px;
-}
+} */
 
 .content .sales .sales_content .top_box {
   display: -webkit-box;
@@ -8416,13 +8766,24 @@ body::-webkit-scrollbar {
   font-size: 14px;
 }
 
+@media (min-width: 800px) {
+  .content .sales .pay_content {
+    width: 90%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 21px;
+    margin: 17px 25px;
+  }
+}
+
 .content .sales .pay_content {
-  width: 100%;
+  width: 90%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
-  margin: 24px;
+  margin: 0px 65px;
 }
 
 .content .sales .pay_content .top_box {
@@ -9663,13 +10024,24 @@ body::-webkit-scrollbar {
   border: none !important;
 }
 
+@media (min-width: 800px) {
+  .content .invoices .invoices_content {
+    width: 90%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 21px;
+    margin: 0px 65px;
+    overflow: hidden;
+  }
+}
 .content .invoices .invoices_content {
-  width: 100%;
+  width: 90%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
-  margin: 0px 25px;
+  margin: 0px 65px;
   overflow: hidden;
 }
 
@@ -10724,12 +11096,12 @@ body::-webkit-scrollbar {
 }
 
 .content .supporttickets .supporttickets_content {
-  width: 100%;
+  width: 87%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
-  margin: 0px 25px;
+  margin: 0px 67px;
   position: relative;
 }
 
@@ -11263,7 +11635,7 @@ body::-webkit-scrollbar {
 }
 
 .content .supporttickets .add_content .sec .area textarea {
-  width: 92%;
+  width: 93%;
   border: 1px solid #00000047;
   height: 150px;
   outline: none;
@@ -11433,6 +11805,19 @@ body::-webkit-scrollbar {
   }
 }
 
+@media (max-width: 767px) {
+  .content .supporttickets .add_content .sec .area textarea {
+    width: 80%;
+    border: 1px solid #00000047;
+    height: 150px;
+    outline: none;
+    font-size: 14px;
+    resize: none;
+    padding: 7px;
+    border-radius: 9px;
+  }
+}
+
 .content .submitticket {
   width: 67%;
   padding: 60px 30px 25px 30px;
@@ -11496,11 +11881,12 @@ body::-webkit-scrollbar {
 }
 
 .content .my_profile .my_profile-content .top_infos {
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0px 34px;
+  margin: 0px 25px;
 }
 
 .content .my_profile .my_profile-content .top_infos .profile_box {
@@ -11617,7 +12003,27 @@ body::-webkit-scrollbar {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 400px) {
+  .content .my_profile .my_profile-content .top_infos .all_money .add-money {
+    margin-right: 7px;
+    width: 90%;
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .content .my_profile .my_profile-content .top_infos .all_money .add-money a {
+    width: 94% !important;
+  }
+}
 
+@media (max-width: 400px) {
+  .content .my_profile .my_profile-content .sections {
+    /* -ms-grid-columns: (1fr) [1]; */
+    grid-template-columns: repeat(1, 1fr);
+    width: 90% !important;
+    margin: 30px 60px !important;
+  }
+}
 .content .my_profile .my_profile-content .top_infos .all_money .add-money {
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #00000014;
@@ -11788,12 +12194,12 @@ body::-webkit-scrollbar {
 }
 
 .content .my_profile .my_profile-content .tickets {
-  width: 98%;
+  width: 90%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #00000014;
   box-shadow: 0 0 11px 2px #00000014;
   border-radius: 21px;
-  margin: 0px 34px;
+  margin: 0px 61px;
 }
 
 .content .my_profile .my_profile-content .tickets .top_box {
@@ -12453,8 +12859,8 @@ body::-webkit-scrollbar {
   border-radius: 9px;
   padding: 20px 15px;
   width: 100%;
-  margin: 30px 70px;
-  width: 88%;
+  margin: 30px 50px;
+  width: 90%;
 }
 
 .content .addfunds .national-bank .info {
@@ -12747,12 +13153,12 @@ body::-webkit-scrollbar {
 }
 
 .content .settings .settings_content {
-  width: 98%;
+  width: 90%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
-  margin: 35px 35px;
+  margin: 35px 61px;
 }
 
 .content .settings .settings_content .top_box {
@@ -14573,8 +14979,8 @@ body::-webkit-scrollbar {
     -ms-flex-order: 1;
     order: 1;
     margin-bottom: 20px;
-    width: 100%;
-    margin-right: 0;
+    width: 94%;
+    margin-right: 60px;
   }
   .content .viewticket .viewticket_content .infos .infos_content .btns {
     display: inline-block;
@@ -15042,7 +15448,24 @@ body::-webkit-scrollbar {
 @media (max-width: 860px) {
   .content .viewinvoice .viewinvoice_content,
   .content .viewinvoice .print {
-    width: 100%;
+    width: 83%;
+    margin: 0px 62px;
+  }
+}
+@media (max-width: 860px) {
+  .content .users .users_content {
+    width: 90%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b;
+    box-shadow: 0 0 11px 2px #0000002b;
+    border-radius: 9px;
+    margin: 0px 61px;
+  }
+  .content .users .users_content .top_box .box_title h3 {
+    margin: 0 -5px;
+    font-family: "Cairo", sans-serif !important;
+    color: #222;
+    font-size: 18px;
   }
 }
 
@@ -15129,13 +15552,13 @@ body::-webkit-scrollbar {
 }
 
 .content .smtp_settings .smtp_settings-content {
-  width: 94%;
+  width: 86%;
   background-color: #fff;
   -webkit-box-shadow: 0 0 11px 2px #0000002b;
   box-shadow: 0 0 11px 2px #0000002b;
   border-radius: 21px;
   padding: 20px;
-  margin: 0px 35px;
+  margin: 0px 53px;
 }
 
 .content .smtp_settings .smtp_settings-content .smtp_form .sec {
@@ -20444,6 +20867,7 @@ textarea:focus {
   display: -ms-flexbox;
   display: flex;
   border-radius: 2px;
+  margin: 11px 0px;
 }
 
 .valid_alert p,
