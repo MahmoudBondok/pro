@@ -3946,13 +3946,16 @@ body::-webkit-scrollbar {
   margin-left: 10px;
   width: 100%;
 }
-
+.content .invoices .invoices_content .cnt_1 .next_btn,
+.content .invoices .invoices_content .cnt_2 .next_btn {
+  margin: 0px auto 20px !important;
+}
 .content .products .code_bar .inpt .get_num {
   position: absolute;
   left: -5px;
   height: 33px;
   background-color: #1b7dc0;
-  bottom: 2px;
+  bottom: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4336,8 +4339,8 @@ body::-webkit-scrollbar {
 
 .content .taxes .add_taxes .add_content .sec .inpt .icon {
   position: absolute;
-  left: 237px;
-  height: 35px;
+  left: 223px;
+  height: 33px;
   background-color: #eee;
   bottom: 0;
   display: -webkit-box;
@@ -4605,8 +4608,18 @@ body::-webkit-scrollbar {
 .content .fees .fee_types .ps::-webkit-scrollbar-thumb {
   background-color: #1b7dc0;
 }
-
-.content .fees .fees-items .ps table,
+.content
+  .taxes
+  .add_taxes
+  .add_content
+  .sec
+  .inpt
+  .icon
+  .content
+  .fees
+  .fees-items
+  .ps
+  table,
 .content .fees .feesmonth .ps table,
 .content .fees .fee_types .ps table {
   width: 100%;
@@ -5013,6 +5026,18 @@ body::-webkit-scrollbar {
     box-shadow: 0 0 11px 2px #0000002b !important;
     border-radius: 3px !important;
     margin: 33px 0px !important;
+  }
+  .content .home .statistics,
+  .content .home .best-selling-products {
+    width: 137% !important;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 11px 2px #0000002b !important;
+    box-shadow: 0 0 11px 2px #0000002b !important;
+    border-radius: 14px !important;
+  }
+  .content .sales .sales_content {
+    width: 117% !important;
+    margin: 20px -30px !important;
   }
 }
 .content .sales .sales_content {
@@ -8547,8 +8572,8 @@ body::-webkit-scrollbar {
 
 .content .sales .sales_content .search_box form .inpt .icon {
   position: absolute;
-  left: -6px;
-  bottom: 11px;
+  left: 0px;
+  bottom: 10px;
   height: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8577,6 +8602,7 @@ body::-webkit-scrollbar {
   display: flex;
   padding-top: 36px;
   margin-left: 20px;
+  margin-top: -4px;
 }
 
 @media (max-width: 450px) {
@@ -8590,6 +8616,7 @@ body::-webkit-scrollbar {
 .content .sales .sales_content .search_box form .btns .padding {
   height: 34px;
   width: 100px;
+  margin: 2px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9249,7 +9276,7 @@ body::-webkit-scrollbar {
 
 .content .client_search .box_client .btm_con form .inpts .ipt input,
 .content .client_search .box_client .btm_con form .inpts .ipt select {
-  width: 50%;
+  width: 95%;
   border: 1px solid #2c2c2c70;
   height: 30px;
   margin-top: 10px;
@@ -9311,6 +9338,7 @@ body::-webkit-scrollbar {
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .content .client_search .box_client .btm_con .search-ex_client {
@@ -11489,6 +11517,7 @@ body::-webkit-scrollbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 5px 0px;
 }
 
 .content .supporttickets .add_content .sec .inpt {
@@ -11539,14 +11568,58 @@ body::-webkit-scrollbar {
 }
 
 .content .supporttickets .add_content .sec .inpt input {
-  width: 60%;
+  width: 100%;
   border: 1px solid #00000047;
-  height: 33px;
+  height: 40px;
   outline: none;
   font-size: 14px;
   border-radius: 9px;
 }
 
+.content .supporttickets .support_content button {
+  width: 125px;
+  padding: 10px 0px;
+  background-color: #ed6d00;
+  color: #fff;
+  border: 0;
+}
+.content .supporttickets h1 {
+  margin: 0px 0px 25px;
+  font-family: "Cairo", sans-serif !important;
+  color: #222;
+  font-size: 22px;
+}
+@media (max-width: 776px) {
+  .content .supporttickets .support_content input {
+    width: 10rem !important;
+    height: 45px !important;
+    margin: 13px -8px !important;
+    padding: 20px 20px !important;
+    border: 1px solid #ddd !important;
+    outline: none !important;
+  }
+  .content .supporttickets .support-num input {
+    width: 280px !important;
+  }
+}
+.content .supporttickets .support_content input {
+  width: 22rem;
+  height: 45px;
+  margin: 0px -8px;
+  padding: 20px 20px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.content .supporttickets .support_content .more {
+  width: 190px;
+  height: 44px;
+  margin: 0px 35px;
+  background-color: #e4effc;
+  border: 1px solid #ddd;
+  color: #0621f1;
+  font-weight: 600;
+  padding: 10px 0px;
+}
 .content
   .supporttickets
   .add_content
@@ -11566,8 +11639,8 @@ body::-webkit-scrollbar {
 .content .supporttickets .add_content .sec .inpt select {
   outline: none;
   display: block;
-  height: 33px;
-  width: 50%;
+  height: 40px;
+  width: 100%;
   border-radius: 9px;
   padding: 0 12px;
   font-size: 14px;
@@ -11635,9 +11708,9 @@ body::-webkit-scrollbar {
 }
 
 .content .supporttickets .add_content .sec .area textarea {
-  width: 93%;
+  width: 99%;
   border: 1px solid #00000047;
-  height: 150px;
+  height: 180px;
   outline: none;
   font-size: 14px;
   resize: none;
@@ -11764,6 +11837,7 @@ body::-webkit-scrollbar {
   -ms-flex-pack: center;
   justify-content: center;
   margin-top: 15px;
+  display: none !important;
 }
 
 .content .supporttickets .btns a {
