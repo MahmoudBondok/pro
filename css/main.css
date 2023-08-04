@@ -941,7 +941,6 @@ body::-webkit-scrollbar {
 .content {
   width: calc(100% - 240px);
   padding: 98px 30px 30px;
-  min-height: 100vh;
   float: left;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -11726,6 +11725,7 @@ body::-webkit-scrollbar {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-bottom: 15px;
+  display: none;
 }
 
 .content .supporttickets .add_content .sec .logo label {
